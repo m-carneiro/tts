@@ -4,7 +4,7 @@ Use the `-f` flag to specify the path to the file you want to read.
 
 ## Installation
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
