@@ -1,8 +1,9 @@
 # Text to Speech (TTS) for Python 3
 
-Use the `-f` flag to specify the path to the file you want to read. 
+Use the `-f` flag to specify the path to the file you want to read.
 
 ## Installation
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -12,6 +13,7 @@ pip install -r requirements.txt
 ```bash
 python3 main.py -f <path_to_file/file_name>.pdf
 ```
+
 Will generate a mp3 file containing the name of the file.mp3
 
 For dummies.
