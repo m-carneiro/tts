@@ -26,5 +26,6 @@ file_name = file_location.split('/')[-1].split('.')[0]
 print('Recording ...')
 time.sleep(15)
 
-recorder = gTTS(text=",".join(text_list), lang=language).save(f'{file_name}.mp3')
+recorder = gTTS(text=",".join(text_list),
+                lang=language).save(f'{file_name}.mp3')
 print('Done!')
